@@ -1,0 +1,405 @@
+{
+  "cases": [
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 90
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 90
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 91
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 91
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 92
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 92
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 93
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 93
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 94
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 94
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 95
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 95
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 96
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 96
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 97
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 97
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 98
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 98
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 99
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 99
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 90
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 90
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 91
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 91
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 92
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 92
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 93
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 93
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 94
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 94
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 95
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 95
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 96
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 96
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 97
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 97
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 98
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 98
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 99
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 99
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 90
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 90
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 91
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 91
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 92
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 92
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 93
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 93
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 94
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 94
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 95
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 95
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 96
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 96
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 97
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 97
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 98
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 98
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 99
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 99
+    }
+  ],
+  "core_sha256": "bc49c12df2f1fc7a12095c83dd55cfea2d3b79f58dc9a5dfbe71f6e44b1c1fa4",
+  "number_of_cases": 60,
+  "plan_validation": {
+    "all_checks_passed": true,
+    "checks": {
+      "all_held_out_pairs_covered": true,
+      "both_225_coordinates": true,
+      "frozen_status": true,
+      "local_68_blocks": true,
+      "nine_layers_are_minimal": true,
+      "sharing_is_one_group_per_bond": true
+    },
+    "coverage": {
+      "all_pairs_covered": true,
+      "tested_pair_count": 36,
+      "uncovered_pairs": []
+    },
+    "eight_layer_control": {
+      "all_pairs_covered": false,
+      "tested_pair_count": 36,
+      "uncovered_pairs": [
+        [
+          0,
+          15
+        ]
+      ]
+    },
+    "resources": {
+      "LOCAL_LC225": {
+        "blocks": 68,
+        "coordinates": 225
+      },
+      "MERA_PM225": {
+        "blocks": 26,
+        "coordinates": 225
+      }
+    }
+  },
+  "protocol_sha256": "6c365b0b938a2336205802766cc0b8e3564ee96f205dc5ec191ea3829ce2f807",
+  "runner_sha256": "b5b25b405342d3f2909f525da19b5e8c3f8c6007fa257857626c14672982551b",
+  "status": "complete"
+}

@@ -1,0 +1,294 @@
+{
+  "causal_cone_validation": {
+    "all_checks_passed": true,
+    "checks": {
+      "all_held_out_pairs_covered": true,
+      "both_225_coordinates": true,
+      "frozen_status": true,
+      "local_68_blocks": true,
+      "nine_layers_are_minimal": true,
+      "sharing_is_one_group_per_bond": true
+    },
+    "coverage": {
+      "all_pairs_covered": true,
+      "tested_pair_count": 36,
+      "uncovered_pairs": []
+    },
+    "eight_layer_control": {
+      "all_pairs_covered": false,
+      "tested_pair_count": 36,
+      "uncovered_pairs": [
+        [
+          0,
+          15
+        ]
+      ]
+    },
+    "resources": {
+      "LOCAL_LC225": {
+        "blocks": 68,
+        "coordinates": 225
+      },
+      "MERA_PM225": {
+        "blocks": 26,
+        "coordinates": 225
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "field": 0.9,
+      "interval_level": 0.975,
+      "interval_lower": 0.3687625815986665,
+      "interval_upper": 0.4068203535671482,
+      "mean_difference": 0.38779146758290733,
+      "metric": "fidelity",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.007087079743757042
+    },
+    {
+      "field": 1.0,
+      "interval_level": 0.975,
+      "interval_lower": 0.21114846343556531,
+      "interval_upper": 0.24615382720458517,
+      "mean_difference": 0.22865114532007524,
+      "metric": "fidelity",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.006518663380917951
+    },
+    {
+      "field": 1.1,
+      "interval_level": 0.975,
+      "interval_lower": 0.12187356108295111,
+      "interval_upper": 0.15578308673727015,
+      "mean_difference": 0.13882832391011063,
+      "metric": "fidelity",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.006314597517273466
+    },
+    {
+      "field": null,
+      "interval_level": 0.975,
+      "interval_lower": 0.24370605433048093,
+      "interval_upper": 0.26015304043910176,
+      "mean_difference": 0.2517569789376977,
+      "metric": "fidelity",
+      "pairs": 30,
+      "scope": "equal_weight_fixed_fields"
+    },
+    {
+      "field": 0.9,
+      "interval_level": 0.975,
+      "interval_lower": -0.2604727498540646,
+      "interval_upper": -0.19373879391002286,
+      "mean_difference": -0.22710577188204373,
+      "metric": "zz_long_range_mae",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.01242712967494458
+    },
+    {
+      "field": 1.0,
+      "interval_level": 0.975,
+      "interval_lower": -0.09203760059512614,
+      "interval_upper": -0.052777014353318025,
+      "mean_difference": -0.07240730747422208,
+      "metric": "zz_long_range_mae",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.007311066599294803
+    },
+    {
+      "field": 1.1,
+      "interval_level": 0.975,
+      "interval_lower": -0.028535627124845836,
+      "interval_upper": -0.007371870402923931,
+      "mean_difference": -0.017953748763884884,
+      "metric": "zz_long_range_mae",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.003941093338042784
+    },
+    {
+      "field": null,
+      "interval_level": 0.975,
+      "interval_lower": -0.1165900101379854,
+      "interval_upper": -0.09561246414093842,
+      "mean_difference": -0.10582227604005025,
+      "metric": "zz_long_range_mae",
+      "pairs": 30,
+      "scope": "equal_weight_fixed_fields"
+    },
+    {
+      "field": 0.9,
+      "interval_level": 0.975,
+      "interval_lower": -0.06134016690730619,
+      "interval_upper": -0.05113710904340478,
+      "mean_difference": -0.056238637975355485,
+      "metric": "energy_density_error",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.0019000030998010484
+    },
+    {
+      "field": 1.0,
+      "interval_level": 0.975,
+      "interval_lower": -0.048903515281913494,
+      "interval_upper": -0.03638717905609728,
+      "mean_difference": -0.042645347169005386,
+      "metric": "energy_density_error",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.0023307794530246484
+    },
+    {
+      "field": 1.1,
+      "interval_level": 0.975,
+      "interval_lower": -0.03576396929230554,
+      "interval_upper": -0.027526114799283994,
+      "mean_difference": -0.03164504204579477,
+      "metric": "energy_density_error",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.001534044918810839
+    },
+    {
+      "field": null,
+      "interval_level": 0.975,
+      "interval_lower": -0.045970145120062256,
+      "interval_upper": -0.041216591967942605,
+      "mean_difference": -0.04350967573005188,
+      "metric": "energy_density_error",
+      "pairs": 30,
+      "scope": "equal_weight_fixed_fields"
+    },
+    {
+      "field": 0.9,
+      "interval_level": 0.975,
+      "interval_lower": -0.4731704516945282,
+      "interval_upper": -0.30756210502031167,
+      "mean_difference": -0.39036627835741994,
+      "metric": "half_chain_entropy_error",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.03083941855776369
+    },
+    {
+      "field": 1.0,
+      "interval_level": 0.975,
+      "interval_lower": -0.26708320641089117,
+      "interval_upper": -0.1798633308282877,
+      "mean_difference": -0.22347326861958944,
+      "metric": "half_chain_entropy_error",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.016241996877967492
+    },
+    {
+      "field": 1.1,
+      "interval_level": 0.975,
+      "interval_lower": -0.18776775984079846,
+      "interval_upper": -0.10000077299364385,
+      "mean_difference": -0.14388426641722116,
+      "metric": "half_chain_entropy_error",
+      "pairs": 10,
+      "scope": "fixed_field",
+      "standard_error": 0.016343879383432937
+    },
+    {
+      "field": null,
+      "interval_level": 0.975,
+      "interval_lower": -0.28018755153470587,
+      "interval_upper": -0.2258818093020912,
+      "mean_difference": -0.2525746044647435,
+      "metric": "half_chain_entropy_error",
+      "pairs": 30,
+      "scope": "equal_weight_fixed_fields"
+    }
+  ],
+  "experiment": "causal_cone_local_v1",
+  "status": "complete",
+  "summaries": [
+    {
+      "architecture": "LOCAL_LC225",
+      "count": 10,
+      "energy_density_error_mean": 0.06469344747146391,
+      "fidelity_mean": 0.5705623488303682,
+      "fidelity_se": 0.006079123903779195,
+      "field": 0.9,
+      "half_chain_entropy_error_mean": 0.41188702393473353,
+      "physical_su4_blocks": 68,
+      "su4_shot_gate_exposure": 38080000000,
+      "zz_long_range_mae_mean": 0.3015854225412645,
+      "zz_long_range_mae_se": 4.880446816380431e-06
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "count": 10,
+      "energy_density_error_mean": 0.04925412874926436,
+      "fidelity_mean": 0.7402810373302787,
+      "fidelity_se": 0.0061438056742918285,
+      "field": 1.0,
+      "half_chain_entropy_error_mean": 0.23389451506346534,
+      "physical_su4_blocks": 68,
+      "su4_shot_gate_exposure": 38080000000,
+      "zz_long_range_mae_mean": 0.13493717513533526,
+      "zz_long_range_mae_se": 5.585263732758455e-06
+    },
+    {
+      "architecture": "LOCAL_LC225",
+      "count": 10,
+      "energy_density_error_mean": 0.03696425834460848,
+      "fidelity_mean": 0.8365629695378736,
+      "fidelity_se": 0.004445059324935015,
+      "field": 1.1,
+      "half_chain_entropy_error_mean": 0.16078266825764936,
+      "physical_su4_blocks": 68,
+      "su4_shot_gate_exposure": 38080000000,
+      "zz_long_range_mae_mean": 0.05539289785460777,
+      "zz_long_range_mae_se": 7.24701993374891e-06
+    },
+    {
+      "architecture": "MERA_PM225",
+      "count": 10,
+      "energy_density_error_mean": 0.008454809496108417,
+      "fidelity_mean": 0.9583538164132754,
+      "fidelity_se": 0.002013019483397486,
+      "field": 0.9,
+      "half_chain_entropy_error_mean": 0.02152074557731356,
+      "physical_su4_blocks": 26,
+      "su4_shot_gate_exposure": 14560000000,
+      "zz_long_range_mae_mean": 0.07447965065922074,
+      "zz_long_range_mae_se": 0.012427121951936985
+    },
+    {
+      "architecture": "MERA_PM225",
+      "count": 10,
+      "energy_density_error_mean": 0.006608781580258971,
+      "fidelity_mean": 0.9689321826503539,
+      "fidelity_se": 0.004418245058142639,
+      "field": 1.0,
+      "half_chain_entropy_error_mean": 0.010421246443875909,
+      "physical_su4_blocks": 26,
+      "su4_shot_gate_exposure": 14560000000,
+      "zz_long_range_mae_mean": 0.06252986766111317,
+      "zz_long_range_mae_se": 0.007311515290655375
+    },
+    {
+      "architecture": "MERA_PM225",
+      "count": 10,
+      "energy_density_error_mean": 0.0053192162988137115,
+      "fidelity_mean": 0.9753912934479843,
+      "fidelity_se": 0.004029966139823109,
+      "field": 1.1,
+      "half_chain_entropy_error_mean": 0.016898401840428227,
+      "physical_su4_blocks": 26,
+      "su4_shot_gate_exposure": 14560000000,
+      "zz_long_range_mae_mean": 0.037439149090722885,
+      "zz_long_range_mae_se": 0.003940694543241511
+    }
+  ]
+}

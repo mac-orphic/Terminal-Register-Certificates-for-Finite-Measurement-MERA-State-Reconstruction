@@ -1,0 +1,751 @@
+{
+  "cases": [
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 200
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 200
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 201
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 201
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 202
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 202
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 203
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 203
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 204
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 204
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 205
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 205
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 206
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 206
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 207
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 207
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 208
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 208
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 209
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 209
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 210
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 210
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 211
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 211
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 212
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 212
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 213
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 213
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 214
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 214
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 215
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 215
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 216
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 216
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 217
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 217
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 218
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 218
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "restart": 219
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "restart": 219
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 200
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 200
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 201
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 201
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 202
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 202
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 203
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 203
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 204
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 204
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 205
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 205
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 206
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 206
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 207
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 207
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 208
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 208
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 209
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 209
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 210
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 210
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 211
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 211
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 212
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 212
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 213
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 213
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 214
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 214
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 215
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 215
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 216
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 216
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 217
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 217
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 218
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 218
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "restart": 219
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "restart": 219
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 200
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 200
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 201
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 201
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 202
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 202
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 203
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 203
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 204
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 204
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 205
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 205
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 206
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 206
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 207
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 207
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 208
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 208
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 209
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 209
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 210
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 210
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 211
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 211
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 212
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 212
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 213
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 213
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 214
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 214
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 215
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 215
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 216
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 216
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 217
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 217
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 218
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 218
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "restart": 219
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "restart": 219
+    }
+  ],
+  "device": "cpu",
+  "exact_backend_sha256": "3ced35209c36121bb0cc6801b9e20e36da05e2d51104d41342cfb6f4799dc4dc",
+  "number_of_cases": 120,
+  "plan_validation": {
+    "all_checks_passed": true,
+    "architecture_resources": {
+      "MERA_PM225": {
+        "independent_coordinates": 225,
+        "physical_su4_blocks": 26
+      },
+      "MPS": {
+        "independent_coordinates": 225,
+        "physical_su4_blocks": 15
+      }
+    },
+    "checks": {
+      "complete_lr_schedule": true,
+      "equal_225_coordinates": true,
+      "exact_objective": true,
+      "five_thousand_steps": true,
+      "frozen_status": true,
+      "twenty_restarts": true
+    }
+  },
+  "protocol_sha256": "6d916abf9a7f6f90c24a013dd48d013ec2229738a43ce4865031a5f4bdf1880a",
+  "runner_sha256": "d0b5176e78d8ef44744fe90daa3648269a83217ae545b3f48b602e00ae76537e",
+  "status": "complete"
+}

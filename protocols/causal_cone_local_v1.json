@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_CAUSAL_CONE_LOCAL_V1_BEFORE_RESULTS",
+  "purpose": "Replace the causally disconnected shallow local negative control with a parameter-matched local circuit whose light cones cover every held-out distance.",
+  "system": {
+    "n": 16,
+    "fields_h_over_J": [0.9, 1.0, 1.1],
+    "replicates": [90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    "held_out_distances": [8, 9, 10, 11, 12, 13, 14, 15]
+  },
+  "architectures": ["MERA_PM225", "LOCAL_LC225"],
+  "local_architecture": {
+    "complete_brickwork_layers": 9,
+    "physical_su4_blocks": 68,
+    "independent_coordinates": 225,
+    "sharing_rule": "All occurrences on nearest-neighbour bond (i,i+1) share SU(4) group i.",
+    "causal_cone_rule": "Backward causal cones must overlap for every open-chain pair at distance r>=8."
+  },
+  "training_stages": [
+    {"steps": 2000, "directions": 4, "shots": 5000, "learning_rate": 0.02, "perturbation": 0.08},
+    {"steps": 1500, "directions": 8, "shots": 20000, "learning_rate": 0.008, "perturbation": 0.03}
+  ],
+  "seed_policy": {
+    "namespace": "causal_cone_local_v1_evaluation",
+    "match_group": "causal_cone_local_common_random_numbers"
+  },
+  "primary_endpoint": "zz_connected_long_range_mae",
+  "secondary_endpoints": ["fidelity", "energy_density_error", "half_chain_entropy_error", "joint_failure"],
+  "statistics": {
+    "interval_level": 0.975,
+    "bootstrap_resamples": 20000,
+    "difference": "MERA_PM225 minus LOCAL_LC225",
+    "pooled_estimand": "Equal-field-weight mean paired difference over the three fixed fields."
+  },
+  "guardrails": [
+    "The code must verify minimal light-cone depth and all held-out-pair coverage before training.",
+    "LOCAL_LC225 is a local-circuit control and is not called an MPS.",
+    "The local control has more physical gates than MERA; gate exposure is reported rather than hidden.",
+    "No result is removed or rerun with changed settings."
+  ]
+}

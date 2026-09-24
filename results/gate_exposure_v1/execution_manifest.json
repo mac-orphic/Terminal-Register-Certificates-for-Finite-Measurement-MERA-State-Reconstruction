@@ -1,0 +1,393 @@
+{
+  "cases": [
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 80
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 80
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 81
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 81
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 82
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 82
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 83
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 83
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 84
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 84
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 85
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 85
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 86
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 86
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 87
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 87
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 88
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 88
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 89
+    },
+    {
+      "architecture": "MPS",
+      "field": 0.9,
+      "n": 16,
+      "replicate": 89
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 80
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 80
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 81
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 81
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 82
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 82
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 83
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 83
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 84
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 84
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 85
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 85
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 86
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 86
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 87
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 87
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 88
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 88
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 89
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.0,
+      "n": 16,
+      "replicate": 89
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 80
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 80
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 81
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 81
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 82
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 82
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 83
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 83
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 84
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 84
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 85
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 85
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 86
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 86
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 87
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 87
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 88
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 88
+    },
+    {
+      "architecture": "MERA_PM225",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 89
+    },
+    {
+      "architecture": "MPS",
+      "field": 1.1,
+      "n": 16,
+      "replicate": 89
+    }
+  ],
+  "number_of_cases": 60,
+  "plan_validation": {
+    "all_checks_passed": true,
+    "checks": {
+      "all_checkpoints_within_560M": true,
+      "equal_coordinates": true,
+      "expected_blocks": true,
+      "frozen_status": true,
+      "same_frozen_seed_namespace": true
+    },
+    "maximum_training_shots": 560000000,
+    "requested_training_shots": {
+      "MERA_PM225": [
+        1000000,
+        10000000,
+        100000000,
+        323076924
+      ],
+      "MPS": [
+        1733334,
+        17333334,
+        173333334,
+        560000000
+      ]
+    }
+  },
+  "protocol_sha256": "9dcaef4880a5bd938a3510835829e44d96e1ddbadbdd3bb51c4cc4f75bf9a586",
+  "runner_sha256": "41db2920093a4141f56cd8bb757462c617255c51ab0cabd869532b2a5f6765f6",
+  "status": "complete"
+}

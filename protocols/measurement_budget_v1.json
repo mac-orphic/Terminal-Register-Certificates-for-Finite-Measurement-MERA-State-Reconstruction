@@ -1,0 +1,76 @@
+{
+  "status": "FROZEN_MEASUREMENT_BUDGET_V1_BEFORE_RESULTS",
+  "purpose": "Measure finite-shot training and terminal-certificate scaling for parameter-matched MERA and MPS without budget-specific retuning.",
+  "system": {
+    "n": 16,
+    "fields_h_over_J": [0.9, 1.0, 1.1],
+    "evaluation_replicates": [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+  },
+  "architectures": ["MERA_PM225", "MPS"],
+  "training_stages": [
+    {
+      "steps": 2000,
+      "directions": 4,
+      "shots": 5000,
+      "learning_rate": 0.02,
+      "perturbation": 0.08
+    },
+    {
+      "steps": 1500,
+      "directions": 8,
+      "shots": 20000,
+      "learning_rate": 0.008,
+      "perturbation": 0.03
+    }
+  ],
+  "requested_training_shot_checkpoints": [1000000, 10000000, 100000000, 560000000],
+  "checkpoint_rule": "Save the first completed SPSA step whose cumulative training-shot count is greater than or equal to the requested budget; report both requested and achieved counts.",
+  "certificate": {
+    "shots": [100, 1000, 10000, 100000, 1000000],
+    "delta": 0.05,
+    "implementation_error_tau": 0.0,
+    "epsilon_top": 0.0,
+    "monte_carlo_repetitions": 200
+  },
+  "endpoints": {
+    "primary": "zz_connected_long_range_mae",
+    "secondary": [
+      "fidelity",
+      "energy_density_error",
+      "half_chain_entropy_error",
+      "joint_failure",
+      "certificate_upper_bound",
+      "success_F_gt_0.99"
+    ]
+  },
+  "statistics": {
+    "paired_comparison": "MERA_PM225 minus MPS within each field-replicate-budget cell",
+    "confirmatory_interval_level": 0.975,
+    "reason_for_97_5_percent": "Bonferroni-compatible reporting for the manuscript's two primary architecture comparisons.",
+    "bootstrap_resamples": 20000,
+    "bootstrap_method": "paired percentile bootstrap within each fixed field, followed by an equal-weight average across the three fields",
+    "success_interval": "two-sided 95 percent Clopper-Pearson",
+    "report_all_runs": true
+  },
+  "estimand": "Equal-field-weight average paired optimizer-seed performance over the three fixed TFIM fields h/J in {0.9,1.0,1.1}; it does not represent arbitrary-field generalization.",
+  "seed_policy": {
+    "namespace": "measurement_budget_v1_evaluation",
+    "match_group": "measurement_budget_common_random_numbers",
+    "description": "Equal-coordinate MERA_PM225 and MPS runs in a field-replicate cell use the same initial vector, SPSA directions, and measurement seed labels."
+  },
+  "resource_accounting": {
+    "abstract_gate_unit": "one physical SU(4) block application to one state preparation",
+    "entangling_primitives_per_su4": 3,
+    "training_shots_exclude_certificate_shots": true,
+    "oracle_metrics_consume_no_simulated_shots": true
+  },
+  "guardrails": [
+    "No optimizer, stage, field, architecture, replicate, checkpoint, or endpoint may be changed after the first scientific result is inspected.",
+    "The lower-budget results are checkpoints from the same trajectory that reaches 560 million shots; no budget receives separate tuning.",
+    "Exact fidelity and held-out observables are simulation-only oracle diagnostics.",
+    "Training-shot and certification-shot budgets are reported separately.",
+    "MERA_PM225 versus MPS is parameter matched, not gate matched; physical gate exposure is reported explicitly.",
+    "The fixed fields are design points, not a random sample of the TFIM field axis.",
+    "A failed seed or field is reported as-is and is not rerun with altered settings."
+  ]
+}

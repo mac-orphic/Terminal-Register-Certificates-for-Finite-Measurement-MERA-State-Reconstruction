@@ -1,0 +1,35 @@
+{
+  "status": "FROZEN_GATE_EXPOSURE_V1_BEFORE_RESULTS",
+  "purpose": "Compare parameter-matched MERA and MPS at matched aggregate SU(4)-shot-gate exposure without changing the frozen optimizer trajectory.",
+  "system": {
+    "n": 16,
+    "fields_h_over_J": [0.9, 1.0, 1.1],
+    "replicates": [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+  },
+  "architectures": ["MERA_PM225", "MPS"],
+  "common_su4_shot_gate_targets": [26000000, 260000000, 2600000000, 8400000000],
+  "training_stages": [
+    {"steps": 2000, "directions": 4, "shots": 5000, "learning_rate": 0.02, "perturbation": 0.08},
+    {"steps": 1500, "directions": 8, "shots": 20000, "learning_rate": 0.008, "perturbation": 0.03}
+  ],
+  "checkpoint_rule": "For architecture A, save the first completed SPSA step for which achieved_training_shots times physical_su4_blocks is at least the common target G.",
+  "seed_policy": {
+    "namespace": "measurement_budget_v1_evaluation",
+    "match_group": "measurement_budget_common_random_numbers",
+    "description": "This reuses the exact deterministic seed labels from measurement_budget_v1; it is a resource-normalized rerun, not an independent confirmation."
+  },
+  "primary_endpoint": "zz_connected_long_range_mae at G=8.4e9",
+  "secondary_endpoints": ["fidelity", "energy_density_error", "half_chain_entropy_error", "joint_failure"],
+  "statistics": {
+    "interval_level": 0.975,
+    "bootstrap_resamples": 20000,
+    "pooled_estimand": "Equal-field-weight mean paired difference over the three fixed fields; not arbitrary-field generalization."
+  },
+  "guardrails": [
+    "No budget-specific hyperparameter or optimizer change is allowed.",
+    "All requested and achieved training-shot and gate-exposure values are reported.",
+    "Intermediate common-cost points are descriptive; the largest common-cost point is primary.",
+    "MERA_PM225 minus MPS is the difference convention; negative long-range error favors MERA.",
+    "The comparison matches aggregate idealized SU(4)-shot-gate exposure, not physical device noise or wall-clock latency."
+  ]
+}

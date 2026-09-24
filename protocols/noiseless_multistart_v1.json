@@ -1,0 +1,47 @@
+{
+  "status": "FROZEN_NOISELESS_MULTISTART_V1_BEFORE_RESULTS",
+  "purpose": "Separate best-found representational capacity from finite-shot trainability for the two 225-coordinate architectures.",
+  "system": {
+    "n": 16,
+    "fields_h_over_J": [0.9, 1.0, 1.1],
+    "restart_seeds": [200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219]
+  },
+  "architectures": ["MERA_PM225", "MPS"],
+  "seed_policy": {
+    "namespace": "noiseless_multistart_v1",
+    "match_group": "noiseless_multistart_common_initialization",
+    "description": "Equal-coordinate architectures use the same initial parameter vector within each field-restart cell."
+  },
+  "optimizer": {
+    "name": "torch_adam_exact_autodiff",
+    "maximum_steps": 5000,
+    "learning_rate_schedule": [
+      {"start_step": 0, "end_step": 2499, "learning_rate": 0.02},
+      {"start_step": 2500, "end_step": 4999, "learning_rate": 0.005}
+    ],
+    "gradient_norm_tolerance": 1e-6,
+    "relative_objective_change_tolerance": 1e-10,
+    "plateau_steps": 200,
+    "dtype": "float64/complex128"
+  },
+  "objective": "exact eta_sum with no measurement sampling",
+  "report": [
+    "all restarts",
+    "best median and worst fidelity",
+    "best median and worst held-out long-range ZZ error",
+    "convergence fraction",
+    "steps and gradient norm",
+    "exact terminal certificate"
+  ],
+  "interpretation": {
+    "equal_best_values": "finite-shot differences primarily indicate trainability or measurement efficiency",
+    "mera_better_best_value": "supports an architecture or inductive-bias advantage within the tested optimization diagnostic",
+    "mps_better_best_value": "rules out a general MERA representational-superiority claim"
+  },
+  "guardrails": [
+    "The best of 20 restarts is a best-found value, not a certified global optimum.",
+    "Automatic differentiation must accumulate derivatives through every occurrence of a shared MERA parameter.",
+    "No finite-shot result or evaluation field is used to initialize these runs.",
+    "All 20 restarts are reported; failed or nonconverged starts are retained."
+  ]
+}

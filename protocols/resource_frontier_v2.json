@@ -1,0 +1,135 @@
+{
+  "status": "FROZEN_RESOURCE_FRONTIER_V2_BEFORE_RESULTS",
+  "purpose": "Test whether the finite-shot long-range-observable advantage attributed to MERA survives explicit parameter and gate matching.",
+  "system": {
+    "n": 16,
+    "fields_h_over_J": [0.9, 1.0, 1.1],
+    "pilot_replicates": [50, 51, 52],
+    "full_replicates": [60, 61, 62, 63, 64, 65, 66, 67, 68, 69]
+  },
+  "architectures": [
+    "MERA",
+    "MERA_PM225",
+    "MPS",
+    "TTN",
+    "BRICKWORK225",
+    "BRICKWORK390"
+  ],
+  "training_stages": [
+    {
+      "steps": 2000,
+      "directions": 4,
+      "shots": 5000,
+      "learning_rate": 0.02,
+      "perturbation": 0.08
+    },
+    {
+      "steps": 1500,
+      "directions": 8,
+      "shots": 20000,
+      "learning_rate": 0.008,
+      "perturbation": 0.03
+    }
+  ],
+  "fixed_training_resources_per_run": {
+    "objective_queries": 40000,
+    "training_shots": 560000000
+  },
+  "resource_table": {
+    "MERA": {
+      "physical_su4_blocks": 26,
+      "independent_coordinates": 390,
+      "role": "full multiscale model"
+    },
+    "MERA_PM225": {
+      "physical_su4_blocks": 26,
+      "independent_coordinates": 225,
+      "role": "parameter-matched MERA using preregistered within-layer sharing"
+    },
+    "MPS": {
+      "physical_su4_blocks": 15,
+      "independent_coordinates": 225,
+      "role": "canonical chi=2 sequential MPS analysis circuit"
+    },
+    "TTN": {
+      "physical_su4_blocks": 15,
+      "independent_coordinates": 225,
+      "role": "hierarchical no-disentangler control"
+    },
+    "BRICKWORK225": {
+      "physical_su4_blocks": 15,
+      "independent_coordinates": 225,
+      "role": "unstructured equal-block equal-coordinate local control"
+    },
+    "BRICKWORK390": {
+      "physical_su4_blocks": 26,
+      "independent_coordinates": 390,
+      "role": "gate-and-coordinate-matched nearest-neighbour local control for full MERA"
+    }
+  },
+  "primary_contrasts": [
+    {
+      "name": "parameter_matched_mera_vs_mps",
+      "challenger": "MERA_PM225",
+      "baseline": "MPS",
+      "interpretation": "same 225 independent coordinates; MERA uses more physical blocks"
+    },
+    {
+      "name": "gate_and_parameter_matched_mera_vs_local",
+      "challenger": "MERA",
+      "baseline": "BRICKWORK390",
+      "interpretation": "same 26 physical blocks and 390 independent coordinates; compares multiscale and local brickwork geometry"
+    }
+  ],
+  "secondary_contrasts": [
+    {
+      "name": "ttn_vs_mps",
+      "challenger": "TTN",
+      "baseline": "MPS"
+    },
+    {
+      "name": "brickwork225_vs_mps",
+      "challenger": "BRICKWORK225",
+      "baseline": "MPS"
+    },
+    {
+      "name": "sharing_cost",
+      "challenger": "MERA_PM225",
+      "baseline": "MERA"
+    },
+    {
+      "name": "resource_unmatched_full_mera_vs_mps",
+      "challenger": "MERA",
+      "baseline": "MPS",
+      "descriptive_only": true
+    }
+  ],
+  "endpoints": {
+    "primary": ["fidelity", "zz_long_range_mae"],
+    "secondary": ["energy_density_error", "half_chain_entropy_error", "eta_sum"]
+  },
+  "statistics": {
+    "primary_interval": "paired two-sided Student-t 95 percent interval",
+    "bootstrap_interval": "paired percentile bootstrap with 20000 resamples, reported as sensitivity analysis",
+    "win_rate": true,
+    "report_all_runs": true
+  },
+  "decision_rules": {
+    "parameter_matched_long_range_support": "MERA_PM225 minus MPS mean zz_long_range_mae is negative and its paired 95 percent t interval excludes zero.",
+    "gate_matched_geometry_support": "MERA minus BRICKWORK390 mean zz_long_range_mae is negative and its paired 95 percent t interval excludes zero.",
+    "strongest_allowed_claim": "A MERA geometry advantage is supported only if both primary long-range rules pass. Fidelity, energy, and entropy must still be reported even when they disagree.",
+    "failure_rule": "Any failed primary rule is reported as-is. No hyperparameter, architecture, field, or replicate may be changed after pilot results are inspected."
+  },
+  "seed_policy": {
+    "common_random_numbers": true,
+    "description": "All architectures in a field-replicate cell use the same initialization, SPSA-direction, and measurement seed labels. Equal-coordinate models receive exactly the same initial vector."
+  },
+  "guardrails": [
+    "The pilot replicates 50-52 are exploratory and are not included in the full confirmatory replicates 60-69.",
+    "BRICKWORK390 is not called an MPS because adding trainable layers changes the canonical chi=2 MPS family.",
+    "MERA_PM225 versus MPS is parameter matched but not physical-gate matched.",
+    "MERA versus BRICKWORK390 is gate and coordinate matched but is not a direct canonical-MPS comparison.",
+    "Fields 0.9, 1.0, and 1.1 have appeared in earlier diagnostics, so this is a controlled mechanism study rather than untouched-field confirmation.",
+    "No pilot result may be used to change the frozen full-study protocol."
+  ]
+}
